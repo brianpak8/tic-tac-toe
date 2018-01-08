@@ -2,7 +2,7 @@
   "name": "tic-tac-toe",
   "version": "1.0.0",
   "description": "tic tac toe",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/brianpak8/tic-tac-toe#readme",
   "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
