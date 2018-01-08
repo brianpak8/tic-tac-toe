@@ -2,9 +2,11 @@
   "name": "tic-tac-toe",
   "version": "1.0.0",
   "description": "tic tac toe",
-  "main": "app.js",
+  "main": "app.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-dev": "nodemon server/index.js"
+
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,10 @@
   "homepage": "https://github.com/brianpak8/tic-tac-toe#readme",
   "dependencies": {
     "chai": "^4.1.2",
+    "express": "^4.16.2",
     "mocha": "^4.1.0",
     "node": "^9.3.0",
+    "nodemon": "^1.14.9",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
