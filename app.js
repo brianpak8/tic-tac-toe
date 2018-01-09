@@ -25,3 +25,12 @@ const isWinner = (player) => {
   }
   return false;
 }
+
+const isDraw = () => {
+  for (let key in tracker) {
+    if (tracker[key] === '') {
+      return false;
+    }
+  }
+  return true;
+}
